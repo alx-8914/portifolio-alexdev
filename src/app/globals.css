@@ -47,3 +47,33 @@ body {
 .translate-cursor {
   transform: translate(var(--cursor-x), var(--cursor-y));
 }
+
+/* Mobile (default) */
+.sua-classe {
+  padding: 1rem;
+}
+
+/* Tablet (768px+) */
+@media (min-width: 768px) {
+  .sua-classe {
+    padding: 2rem;
+  }
+}
+
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
+  .sua-classe {
+    padding: 3rem;
+  }
+}
+
+/* Garante que o menu mobile não quebre o layout */
+@media (max-width: 767px) {
+  header {
+    position: static !important;
+  }
+  
+  [role="navigation"] {
+    position: relative !important;
+  }
+}

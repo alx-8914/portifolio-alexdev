@@ -106,7 +106,7 @@ export default function ProjectDetailsPage({ params }: ParamsType) {
         {/* Botão de voltar */}
         <Link
           href="/dashboard"
-          className="inline-block mb-8 px-6 py-2 bg-gray-600 text-white rounded hover:bg-blue-500 transition-colors duration-200 hover:scale-105 transition-transform duration-500"
+          className="fixed bottom-4 right-4 md:static md:mb-8 bg-gray-600 text-white rounded hover:bg-blue-500 transition-colors duration-200 hover:scale-105 transition-transform duration-500"
         >
           Voltar
         </Link>
@@ -119,9 +119,9 @@ export default function ProjectDetailsPage({ params }: ParamsType) {
         <Image
           src={project.imageUrl}
           alt={project.title}
-          width={900}
-          height={900}
-          className="w-full h-64 object-cover rounded-lg"
+          width={1200}
+          height={1200}
+          className="w-full h-auto"
         />
 
         {/* Título do projeto */}

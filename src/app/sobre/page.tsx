@@ -20,7 +20,7 @@ export default function Sobre() {
 
           {/* Descrição */}
           <div className="flex-1">
-            <p className="text-lg text-gray-300 mb-4">
+            <p className="font-size: clamp(1rem, 2.5vw, 1.5rem) text-lg text-gray-300 mb-4">
               Olá! Meu nome é Alexsandro da Silva,
               tenho 43 anos e sou um Desenvolvedor <span className="text-blue-500">FullStack</span> e  sou apaixonado por desenvolver aplicações e soluções Web´s digitais que impactam positivamente a vida das pessoas trazendo uma experiência incrível ao usuário.
               Com mais de 1 ano de experiência em desenvolvimento web, tenho trabalhado com tecnologias como descrevo em minhas habilidades logo abaixo e buscando sempre entregar projetos de alta qualidade e performance.

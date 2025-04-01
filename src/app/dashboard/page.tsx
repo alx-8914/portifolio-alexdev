@@ -78,7 +78,7 @@ export default function DashboardPage() {
     <div className="bg-black-900 text-white min-h-screen p-8">
       <h1 className=" text-center text-4xl font-bold mb-8">My <span className="text-blue-500"> Projects</span></h1>
       <motion.div
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -97,7 +97,7 @@ export default function DashboardPage() {
                   alt={project.title}
                   width={400}
                   height={300}
-                  className="w-full h-48 object-cover"
+                  className="max-w-full h-auto"
                 />
                 <div className="p-6">
                   <h2 className="text-2xl font-bold mb-2">{project.title}</h2>

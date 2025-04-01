@@ -44,7 +44,7 @@ export default function Home() {
           </p>
           <a href="/dashboard" className="mt-6 inline-block px-6 py-2 bg-blue-500 font-bold text-white rounded cursor-pointer hover:bg-blue-400 font-bold  hover:scale-115 transition-transform duration-500">Ver Projetos</a>
         </div>
-        <div className="ml-10">
+        <div className="flex flex-col md:flex-row items-center gap-8">
           <Image
             src="/image-perfil.jpg"
             alt="Foto de perfil de Alexsandro da Silva"
