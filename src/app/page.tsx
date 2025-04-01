@@ -56,7 +56,7 @@ export default function Home() {
       </main>
       <section className="bg-zinc-900 text-white">
         <div className="Container text-center">
-          <h2 className="text-4xl font-bold mb-8">My Skills <span className="text-blue-400">end</span> Projects</h2>
+          <h2 className="text-4xl font-bold mb-8">My Skills <span className="text-blue-400">and</span> Projects</h2>
           <Carousel
             items={skills}
             direction="left"
