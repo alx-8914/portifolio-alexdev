@@ -30,7 +30,7 @@ export default function Sobre() {
             </p>
             {/* Botão para baixar o currículo */}
             <a
-              href="/alexsandro-da-silva.pdf" // Substitua pelo caminho do seu currículo
+              href="/CurricullunDev.pdf" // Substitua pelo caminho do seu currículo
               download
               className="inline-block mt-6 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-400 hover:scale-105 transition-transform duration-400 transition-colors duration-200"
             >
