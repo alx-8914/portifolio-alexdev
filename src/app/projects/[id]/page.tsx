@@ -50,7 +50,7 @@ const projects: Project[] = [
     id: 5,
     title: "Dev-Movies",
     description: "Dev-Movies-Interface",
-    imageUrl: "/assets/Capa-dev-movies.png",
+    imageUrl: "/assets/Capa-nova-DevMovie.png",
     link: "https://dev-movies-react.netlify.app/",
     details: "Dev-Movies-Interface, uma aplicação web que permite aos usuários explorar uma ampla variedade de filmes e séries. Com uma interface intuitiva e recursos de busca, os usuários podem pesquisar filmes por título, gênero ou ano de lançamento. Tecnologias Utilizadas: React.js, CSS3, JavaScript, API The Movie Database (TMDB).",
   },

@@ -45,7 +45,7 @@ const projects: Project[] = [
     id: 5,
     title: "Dev-Movies",
     description: "Para ver o projeto no Netlify, clique aqui no card.",
-    imageUrl: "/assets/Capa-dev-movies.png",
+    imageUrl: "/assets/Capa-nova-DevMovie.png",
     link: "https://dev-movies-react.netlify.app/",
   },
   {
